@@ -1,14 +1,11 @@
 {
   "name": "build_your_resume",
   "private": true,
-  "homepage": "http://rajendran00.github.io/react_upload",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
