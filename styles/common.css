@@ -1,3 +1,10 @@
 .commonBoxShadow {
     box-shadow: 0px 0px 6px #00000029;
 }
+
+.helperText {
+    .MuiFormHelperText-root {
+        padding-bottom: 2px;
+        color: #f52d2d !important;
+    }
+}

@@ -27,7 +27,7 @@ const UserSkills: React.FC<UserSkillsProps> = () => {
     ]
 
     function SkillsChip() {
-        return (<div className="flex flex-wrap gap-2 pt-2 pl-2">
+        return (<div className="flex flex-wrap gap-2 pt-2 pl-2" key={"index"}>
             {skills.map((each) => {
                 return <div className="border bg-[#4C5F61] rounded border-[#4C5F61] px-2 py-1 text-xs text-white">
                     {each}

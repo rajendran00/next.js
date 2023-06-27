@@ -7,7 +7,6 @@ import UserProjects from "../../components/resume/userProjects"
 import UserSkills from "../../components/resume/userSkills"
 import domToImage from 'dom-to-image';
 import jsPDF from "jspdf"
-import { log } from "console"
 interface ResumeProps {
 }
 const Resume: React.FC<ResumeProps> = () => {
